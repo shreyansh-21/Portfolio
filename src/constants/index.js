@@ -337,15 +337,15 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Shridhar",
-  fullName: "Shridhar Rai",
-  email: "raishridhar619@gmail.com",
-  role: "Software Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
-  Node.js etc. I'm a quick learner and collaborate closely with clients to
-  create efficient, scalable, and user-friendly solutions that solve
-  real-world problems. Let's work together to bring your ideas to life!`,
+  name: "Shreyansh Dubey",
+  fullName: "Shreyansh Dubey",
+  email: "shreyansh2128@gmail.com",
+  role: "Web Devloper and Ai Enthusiast",
+  about: `I'm a passionate full-stack developer and machine learning enthusiast with expertise in Python,
+  JavaScript, and TypeScript, and hands-on experience with frameworks like React.js, Node.js, and Flask. 
+  From intuitive web apps to intelligent ML-powered tools like DocuTalk and GreenRoots, 
+  I love building solutions that are both scalable and impactful. Always curious and collaborative, 
+  I’m ready to bring your ideas to life—let’s create something exceptional!`,
   projectsIntro: `Following projects showcases my skills and experience through
   real-world examples of my work. Each project is briefly described with
   live demos. It reflects my ability to solve complex problems, work
@@ -354,16 +354,16 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1vmiPiCLaCuqM0uuDcXQlAd8pY8yBDEOU/view?usp=sharing",
+    "https://drive.google.com/file/d/1Af69XJ2ar4SG7oWrkyzZzJJE8QxNOyPb/view?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "https://www.linkedin.com/in/shridharrai/",
+      link: "https://www.linkedin.com/in/shreyansh-dubey21/",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/shridharrai",
+      link: "https://github.com/shreyansh-21",
       icon: github,
     },
   },
