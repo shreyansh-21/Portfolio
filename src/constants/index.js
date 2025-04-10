@@ -11,7 +11,7 @@ import {
   nextJs,
   redux,
   tailwind,
-  angular,
+  python,
   nodejs,
   mongodb,
   java,
@@ -106,14 +106,17 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Angular",
-    icon: angular,
-  },
+ 
   {
     name: "Node JS",
     icon: nodejs,
   },
+  {
+    name: "Python",
+    icon: python,
+  
+  },
+
   {
     name: "MongoDB",
     icon: mongodb,
