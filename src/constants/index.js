@@ -138,31 +138,31 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Crmnext",
-    company_website: "https://www.businessnext.com/crm",
+    title: "Software Devlopment Intern",
+    company_name: "Wexus",
+    company_website: "https://www.linkedin.com/company/wexus/",
     icon: crmnext,
     iconBg: "#E6DEDD",
-    date: "Nov 2023 - Present",
+    date: "Sept 2024 - Feb 2025",
     points: [
-      "Developed Flow and Layout Designers for HDFC, PNB, IOB, and Utkarsh Bank.",
-      "Boosted team efficiency by 50% by implementing monorepo architecture and reusable Design-System.",
-      "Integrated GenAI models to automate flow creation from user prompts, eliminating manual configuration efforts.",
-      "Integrated unit testing with 80% code coverage, enhancing code reliability and reducing bugs.",
+      "Built features for an e-commerce management system tailored for Instagram-based businesses.",
+      "Developed front-end modules using React for real-time inventory tracking and product analytics.",
+      "Integrated Stripe for seamless payment handling and added chatbot support to enhance customer experience.",
+      "Improved the overall checkout speed by 20% through performance optimization and streamlined workflows."
     ],
   },
   {
-    title: "Software Engineer",
-    company_name: "Nickelfox Technologies",
-    company_website: "https://www.nickelfox.com/",
+    title: "Programme Representative",
+    company_name: "VIT University",
+    company_website: "https://vit.ac.in/",
     icon: nickelfox,
     iconBg: "#E6DEDD",
-    date: "Jan 2022 - Nov 2023",
+    date: "Aug 2023 - Jul 2024",
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Acted as a liaison between students and faculty to address academic concerns and streamline communication.",
+      "Organized and facilitated meetings, feedback sessions, and discussions to represent student interests.",
+      "Coordinated with administrative departments to ensure smooth execution of academic activities and policy updates.",
+      "Collaborated with peers and university committees to drive student engagement initiatives and academic improvements."
     ],
   },
 
