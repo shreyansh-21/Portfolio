@@ -170,7 +170,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Aptihealth Web",
+    name: "ShopEase",
     description:
       "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
     tags: [
