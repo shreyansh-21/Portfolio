@@ -172,7 +172,7 @@ const projects = [
   {
     name: "ShopEase",
     description:
-      "Revolutionizing mental healthcare in New York State with a user-friendly platform for personalized therapy and progress tracking. Provides the digital gateway to comprehensive behavioral healthcare.",
+      "A modern, high-performance multi-page e-commerce UI .It features a seamless shopping experience with dynamic product listings, user authentication, and a responsive design.",
     tags: [
       {
         name: "reactjs",
@@ -188,12 +188,12 @@ const projects = [
       },
     ],
     image: aptihealthWeb,
-    hosted_link: "https://www.aptihealth.com/",
+    hosted_link: "https://shop-ease-pi.vercel.app/",
   },
   {
-    name: "Aptihealth App",
+    name: "Fit Log",
     description:
-      "Access top-notch mental healthcare anytime, anywhere in New York State with our innovative app. Track your progress, schedule appointments, and connect with expert therapists for personalized care.",
+      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress, and maintain a structured fitness routine.",
     tags: [
       {
         name: "react-native",
@@ -209,7 +209,7 @@ const projects = [
       },
     ],
     image: aptihealthApp,
-    hosted_link: "https://apps.apple.com/us/app/aptihealth/id1477170874",
+    hosted_link: "https://fitlog-omega.vercel.app/",
   },
   {
     name: "Zeal Web",
