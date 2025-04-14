@@ -255,47 +255,51 @@ const projects = [
       "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
   },
   {
-    name: "Roll Web",
+    name: "Luma Plate",
     description:
-      "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
+      "License Plate Recognition and Image Enhancement is a deep learning-based project that combines optical character recognition (OCR) with image enhancement techniques.",
     tags: [
       {
-        name: "reactjs",
+        name: "ZeroDCE",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "OCR",
         color: "green-text-gradient",
       },
       {
-        name: "formik",
+        name: "CNN",
         color: "pink-text-gradient",
       },
     ],
     image: rollWeb,
-    hosted_link: "https://app.tryroll.com/",
+    hosted_link: "https://github.com/shreyansh-21/LumaPlate",
   },
   {
-    name: "Roll App",
+    name: "Hate Shield",
     description:
-      "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
+      "HateShield is an AI-powered hate speech detection system using LSTM for text and ResNet for images. It analyzes social media comments, memes, and other content to identify harmful speech with high accuracy.",
     tags: [
       {
-        name: "react-native-web",
+        name: "LSTM",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ResNET",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Keras",
         color: "green-text-gradient",
       },
       {
-        name: "storybook",
+        name: "computer vision",
         color: "pink-text-gradient",
       },
     ],
     image: rollApp,
     hosted_link:
-      "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
+      "https://github.com/shreyansh-21/HateShield",
   },
 ];
 
