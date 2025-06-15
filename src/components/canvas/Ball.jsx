@@ -18,12 +18,11 @@ const Ball = ({ imgUrl }) => {
       <directionalLight position={[0, 0, 0.05]} />
 
       <mesh castShadow receiveShadow scale={1.2}>
-        <icosahedronGeometry args={[1, 1]} />
+        <icosahedronGeometry args={[1, 4]} />
         <meshStandardMaterial
           color="#656565"
           polygonOffset
           polygonOffsetFactor={-5}
-          flatShading
         />
         <Decal
           position={[0, 0, 1]}
