@@ -11,20 +11,24 @@ const Hero = () => {
         className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 inset-0`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-electric-purple" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-5 h-5 rounded-full bg-[#90CAF9]" />
+          <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-[#90CAF9] to-transparent" />
         </div>
 
-        <div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+        >
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm{" "}
-            <span className="text-electric-purple">{personalInfo.name}</span>
+            Hi, I'm <span className="text-[#90CAF9]">{personalInfo.name}</span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             Innovative {personalInfo.role}, <br className="sm:block hidden" />
             Crafting smart solutions with web and machine learning tech
           </p>
-        </div>
+        </motion.div>
+
       </div>
 
       <ComputersCanvas />
