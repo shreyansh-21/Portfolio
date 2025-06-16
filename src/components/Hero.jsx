@@ -3,6 +3,8 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { personalInfo } from "../constants";
+import { Typewriter } from 'react-simple-typewriter';
+
 
 const Hero = () => {
   return (
@@ -21,8 +23,20 @@ const Hero = () => {
           transition={{ duration: 1, ease: "easeOut" }}
         >
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#90CAF9]">{personalInfo.name}</span>
-          </h1>
+              Hi, I'm{" "}
+              <span className="bg-gradient-to-r from-[#80CBC4] via-[#90CAF9] to-[#FFB74D] bg-clip-text text-transparent drop-shadow-lg">
+                <Typewriter
+                  words={[personalInfo.name]}
+                  loop={false}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={100}
+                  // deleteSpeed={50}
+                  delaySpeed={1000}
+                />
+              </span>
+            </h1>
+
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             Innovative {personalInfo.role}, <br className="sm:block hidden" />
             Crafting smart solutions with web and machine learning tech
