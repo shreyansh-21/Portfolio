@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+import octopus from "./octopus.png";
+import lion from "./lion.png";
+import fox from "./fox.png";
 import web from "./web.png";
 import github from "./github.png";
 import linkedIn from "./linkedIn.png";
@@ -38,9 +38,9 @@ import rollApp from "./projects/rollApp.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  octopus,
+  lion,
+  fox,
   web,
   github,
   linkedIn,
