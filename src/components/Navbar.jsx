@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
+import { motion } from "framer-motion";
+
 import {
   navLinks,
   navigationPaths,
@@ -45,7 +47,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain rounded-full" />
+          <motion.img
+            whileHover={{ y: [0, -5, 0] }}
+            transition={{ duration: 0.5 }}
+            src={logo}
+            alt="logo"
+            className="w-9 h-9 object-contain rounded-full"
+          />
+
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             {personalInfo.name} &nbsp;
             <span className="lg:block hidden">| {personalInfo.role}</span>
