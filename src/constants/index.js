@@ -142,7 +142,7 @@ const experiences = [
     company_name: "Wexus",
     company_website: "https://www.linkedin.com/company/wexus/",
     icon: crmnext,
-    iconBg: "#E6DEDD",
+    iconBg: "#90CAF9",
     date: "Sept 2024 - Feb 2025",
     points: [
       "Built features for an e-commerce management system tailored for Instagram-based businesses.",
@@ -156,7 +156,7 @@ const experiences = [
     company_name: "VIT University",
     company_website: "https://vit.ac.in/",
     icon: nickelfox,
-    iconBg: "#E6DEDD",
+    iconBg: "#90CAF9",
     date: "Aug 2023 - Jul 2024",
     points: [
       "Acted as a liaison between students and faculty to address academic concerns and streamline communication.",

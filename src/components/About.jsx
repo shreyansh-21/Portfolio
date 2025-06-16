@@ -42,7 +42,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-[#E0E0E0] text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-[#E0E0E0] text-[17px] max-w-3xl leading-[30px] text-justify"
       >
         {personalInfo.about}
       </motion.p>

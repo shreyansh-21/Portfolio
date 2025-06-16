@@ -16,52 +16,57 @@ const ProjectCard = ({
   hosted_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+    <Tilt
+      options={{ max: 25, scale: 1.05, speed: 400 }}
+      className="sm:w-[360px] w-full"
+    >
+      <motion.div
+        whileHover={{ scale: 1.03 }}
+        variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+        className="relative rounded-[20px] p-[2px] card-glow-bg shadow-glow"
       >
-        <div
-          className="relative w-full h-[230px] cursor-pointer"
-          onClick={() => window.open(hosted_link, "_blank")}
-        >
-          <img
-            src={image}
-            alt="project-image"
-            className="w-full h-full object-cover rounded-2xl"
-          />
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(hosted_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={demo}
-                alt="source-code"
-                className="w-1/2 h-1/2 object-contain"
-              />
+        <div className="bg-gradient-to-br from-[#80CBC4]/10 via-[#90CAF9]/10 to-[#FFB74D]/10 backdrop-blur-md rounded-[20px] p-5 flex flex-col justify-between h-full">
+          <div
+            className="relative w-full h-[230px] rounded-xl overflow-hidden cursor-pointer"
+            onClick={() => window.open(hosted_link, "_blank")}
+          >
+            <img
+              src={image}
+              alt="project"
+              className="w-full h-full object-cover rounded-xl"
+            />
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              <div
+                onClick={() => window.open(hosted_link, "_blank")}
+                className="bg-[#1E1E1E]/70 hover:bg-[#90CAF9]/20 border border-[#90CAF9] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={demo}
+                  alt="demo"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
-        </div>
+          <div className="mt-5">
+            <h3 className="text-white font-semibold text-[22px]">{name}</h3>
+            <p className="mt-2 text-white text-[14px]">{description}</p>
+          </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p
+                key={`${name}-${tag.name}`}
+                className="text-[13px] font-medium text-[#90CAF9]"
+              >
+                #{tag.name}
+              </p>
+            ))}
+          </div>
         </div>
-      </Tilt>
-    </motion.div>
+      </motion.div>
+    </Tilt>
   );
 };
 
@@ -76,7 +81,7 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]"
         >
           {personalInfo.projectsIntro}
         </motion.p>
