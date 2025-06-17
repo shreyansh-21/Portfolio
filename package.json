@@ -13,6 +13,7 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.80.0",
     "@react-three/fiber": "^8.13.6",
+    "@tsparticles/engine": "^3.8.1",
     "framer-motion": "^10.15.0",
     "maath": "^0.7.0",
     "react": "^18.2.0",
@@ -21,7 +22,9 @@
     "react-simple-typewriter": "^5.0.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
-    "three": "^0.155.0"
+    "three": "^0.155.0",
+    "tsparticles": "^3.0.0",
+    "tsparticles-engine": "^2.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
