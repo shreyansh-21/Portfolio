@@ -51,14 +51,14 @@ const ProjectCard = ({
 
           <div className="mt-5">
             <h3 className="text-white font-semibold text-[22px]">{name}</h3>
-            <p className="mt-2 text-white text-[14px]">{description}</p>
+            <p className="mt-2 text-white text-[14px]text-justify">{description}</p>
           </div>
 
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
               <p
                 key={`${name}-${tag.name}`}
-                className="text-[13px] font-medium text-[#90CAF9]"
+                className="text-[13px] font-medium text-[#47a7f5]"
               >
                 #{tag.name}
               </p>

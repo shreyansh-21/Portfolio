@@ -22,12 +22,12 @@ import {
   newgen,
   skillrisers,
   proximus,
-  aptihealthWeb,
-  aptihealthApp,
-  zealWeb,
-  zealApp,
-  rollWeb,
-  rollApp,
+  ShopEase,
+  fitlog,
+  GreenRoots,
+  AgriAi,
+  LumaPlate,
+  HateShield,
   linkedIn,
   github,
 } from "../assets";
@@ -176,83 +176,71 @@ const projects = [
     tags: [
       {
         name: "reactjs",
-        color: "blue-text-gradient",
       },
       {
         name: "redux",
-        color: "green-text-gradient",
       },
       {
         name: "nodejs",
-        color: "pink-text-gradient",
       },
     ],
-    image: aptihealthWeb,
+    image: ShopEase,
     hosted_link: "https://shop-ease-pi.vercel.app/",
   },
   {
     name: "Fit Log",
     description:
-      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress, and maintain a structured fitness routine.",
+      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress with the help of graphs and charts, and maintain a structured fitness routine.",
     tags: [
       {
-        name: "react-native",
-        color: "blue-text-gradient",
+        name: "Reactjs",
       },
       {
-        name: "sendbird",
-        color: "green-text-gradient",
+        name: "Chartjs",
       },
       {
-        name: "twilio",
-        color: "pink-text-gradient",
+        name: "Nodejs",
       },
     ],
-    image: aptihealthApp,
+    image: fitlog,
     hosted_link: "https://fitlog-omega.vercel.app/",
   },
   {
-    name: "Zeal Web",
+    name: "Green Roots",
     description:
-      "The Zeal website elevates the experience of enjoying activities with trusted friends, fostering connections and making every interaction exciting.",
+      "An AI/ML Hackathon winning project dedicated to promoting mangrove sustainability and fostering community engagement in mangrove conservation efforts.",
     tags: [
       {
-        name: "reactjs",
-        color: "blue-text-gradient",
+        name: "Google Earth Engine",
       },
       {
-        name: "typescript",
-        color: "green-text-gradient",
+        name: "Random Forest",
       },
       {
-        name: "firebase",
-        color: "pink-text-gradient",
+        name: "Reactjs",
       },
     ],
-    image: zealWeb,
-    hosted_link: "https://getzeal.co/",
+    image: GreenRoots,
+    hosted_link: "https://hackthonduo.github.io/GRWebsite/",
   },
   {
-    name: "Zeal App",
+    name: "AgriVision AI",
     description:
-      "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
+      "A machine learning-powered precision agriculture tool for crop and soil analysis. Provides insights and recommendations to optimize farming efficiency and boost yields.",
     tags: [
       {
-        name: "react-native",
-        color: "blue-text-gradient",
+        name: "Random Forest",
       },
       {
-        name: "sendgrid",
-        color: "green-text-gradient",
+        name: "Seaborn",
       },
       {
-        name: "typescript",
-        color: "pink-text-gradient",
+        name: "Nextjs",
       },
     ],
-    image: zealApp,
+    image: AgriAi,
     hosted_link:
-      "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
+      "https://crop-prediction-puce.vercel.app/",
   },
   {
     name: "Luma Plate",
@@ -261,18 +249,15 @@ const projects = [
     tags: [
       {
         name: "ZeroDCE",
-        color: "blue-text-gradient",
       },
       {
         name: "OCR",
-        color: "green-text-gradient",
       },
       {
         name: "CNN",
-        color: "pink-text-gradient",
       },
     ],
-    image: rollWeb,
+    image: LumaPlate,
     hosted_link: "https://github.com/shreyansh-21/LumaPlate",
   },
   {
@@ -282,22 +267,18 @@ const projects = [
     tags: [
       {
         name: "LSTM",
-        color: "blue-text-gradient",
       },
       {
         name: "ResNET",
-        color: "blue-text-gradient",
       },
       {
         name: "Keras",
-        color: "green-text-gradient",
       },
       {
         name: "computer vision",
-        color: "pink-text-gradient",
       },
     ],
-    image: rollApp,
+    image: HateShield,
     hosted_link:
       "https://github.com/shreyansh-21/HateShield",
   },

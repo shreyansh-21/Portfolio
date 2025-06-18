@@ -29,12 +29,12 @@ import newgen from "./company/newgen.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
 
-import aptihealthWeb from "./projects/aptihealthWeb.png";
-import aptihealthApp from "./projects/aptihealthApp.png";
-import zealWeb from "./projects/zealWeb.png";
-import zealApp from "./projects/zealApp.png";
-import rollWeb from "./projects/rollWeb.png";
-import rollApp from "./projects/rollApp.png";
+import ShopEase from "./projects/ShopEase.png";
+import fitlog from "./projects/fitlog.png";
+import GreenRoots from "./projects/GreenRoots.png";
+import AgriAi from "./projects/AgriAi.png";
+import LumaPlate from "./projects/LumaPlate.png";
+import HateShield from "./projects/HateShield.png";
 
 export {
   logo,
@@ -66,10 +66,10 @@ export {
   newgen,
   skillrisers,
   proximus,
-  aptihealthWeb,
-  aptihealthApp,
-  zealWeb,
-  zealApp,
-  rollWeb,
-  rollApp,
+  ShopEase,
+  fitlog,
+  GreenRoots,
+  AgriAi,
+  LumaPlate,
+  HateShield,
 };
