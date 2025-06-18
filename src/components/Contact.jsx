@@ -81,7 +81,7 @@ const Contact = () => {
       <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
-          className="relative flex-[0.75] bg-[#1E1E1E] p-8 rounded-2xl"
+          className="relative flex-[0.75] bg-[#1A1A1A] p-8 rounded-2xl"
         >
           <div className="flex items-center justify-end space-x-4 absolute top-8 right-4">
             {Object.keys(publicUrls.socialProfiles).map((socialProfile) => {
