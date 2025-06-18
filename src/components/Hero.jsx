@@ -19,9 +19,9 @@ const Hero = () => {
         <ComputersCanvas />
       </div>
 
-      {/* ✅ TEXT CONTENT - Layer 3 (Top) */}
+      {/* ✅ TEXT CONTENT - Layer 3 (Top) - FIXED POINTER EVENTS */}
       <div
-        className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 inset-0 z-20`}
+        className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 inset-0 z-20 pointer-events-none`}
       >
         {/* ✅ Left-side Dot and Line */}
         <div className="flex flex-col justify-center items-center mt-5">
@@ -55,9 +55,9 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* ✅ SCROLL INDICATOR - Layer 4 (Top) */}
-      <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center z-30">
-        <a href="#about">
+      {/* ✅ SCROLL INDICATOR - Layer 4 (Top) - ENABLE POINTER EVENTS FOR LINK */}
+      <div className="absolute xs:bottom-2 bottom-12 w-full flex justify-center items-center z-30 pointer-events-none">
+        <a href="#about" className="pointer-events-auto">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
               animate={{ y: [0, 24, 0] }}
