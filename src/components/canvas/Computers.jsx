@@ -8,24 +8,48 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor="black" />
-      <pointLight intensity={1} />
-      <spotLight
-        visible
-        position={[-20, 50, 10]}
-        angle={0.12}
-        intensity={1}
-        penumbra={1}
-        castShadow
-        shadow-mapSize={1024}
-      />
-      <primitive
-        object={computer.scene}
-        scale={isMobile ? 0.65 : 0.75}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
-      />
-    </mesh>
+  {/* Stronger ambient light for overall brightness */}
+  <ambientLight intensity={1.5} color="#ffffff" />
+
+  {/* Hemisphere light for soft bounce light */}
+  <hemisphereLight intensity={1.2} groundColor="#222222" />
+
+  {/* Top light shining down to reveal details */}
+  <directionalLight
+    position={[0, 10, 0]}
+    intensity={3.5}
+    color="#ffffff"
+    castShadow
+    shadow-mapSize={2048}
+  />
+
+  {/* Front point light to brighten the screen and keyboard area */}
+  <pointLight
+    position={[0, 2, 5]}
+    intensity={2}
+    color="#ffffff"
+  />
+
+  {/* Optional soft rim light from left to give depth */}
+  <spotLight
+    position={[-10, 15, 10]}
+    angle={0.3}
+    intensity={1.5}
+    penumbra={0.8}
+    castShadow
+    shadow-mapSize={1024}
+  />
+
+  {/* ✨ Your exact model values, untouched */}
+  <primitive
+    object={computer.scene}
+    scale={isMobile ? 0.9 : 1.25}
+    position={isMobile ? [-8.5, -5, -2.2] : [-3.5, -4.25, -1.5]}
+    rotation={[-0.01, -0.2, -0.1]}
+  />
+</mesh>
+
+
   );
 };
 
@@ -33,17 +57,15 @@ const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Add a listener for changes to the screen size
     const mediaQuery = window.matchMedia("(max-width: 500px)");
     setIsMobile(mediaQuery.matches);
 
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches);
     };
-    // Add the callback function as a listener for changes to the media query
+
     mediaQuery.addEventListener("change", handleMediaQueryChange);
 
-    // Remove the listener when the component is unmounted
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
