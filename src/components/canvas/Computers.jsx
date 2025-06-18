@@ -8,47 +8,40 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-  {/* Stronger ambient light for overall brightness */}
-  <ambientLight intensity={1.5} color="#ffffff" />
+      {/* Ambient & fill lights */}
+      <ambientLight intensity={2.5} color="#ffffff" />
+      <hemisphereLight intensity={1.8} groundColor="#333333" />
+      <directionalLight position={[0, 10, 0]} intensity={4} castShadow />
+      <pointLight position={[0, 3, 6]} intensity={3} color="#ffffff" />
 
-  {/* Hemisphere light for soft bounce light */}
-  <hemisphereLight intensity={1.2} groundColor="#222222" />
+      {/* ✅ Front-side spotlight */}
+      <spotLight
+        position={[10, 15, -5]}
+        angle={0.4}
+        intensity={2.2}
+        penumbra={1}
+        castShadow
+        shadow-mapSize={1024}
+      />
 
-  {/* Top light shining down to reveal details */}
-  <directionalLight
-    position={[0, 10, 0]}
-    intensity={3.5}
-    color="#ffffff"
-    castShadow
-    shadow-mapSize={2048}
-  />
+      {/* ✅ New backlight spotlight (your addition) */}
+      <spotLight
+        position={[0, 2, -8]}
+        angle={0.4}
+        intensity={2.5}
+        penumbra={1}
+        color="#ffffff"
+        castShadow
+      />
 
-  {/* Front point light to brighten the screen and keyboard area */}
-  <pointLight
-    position={[0, 2, 5]}
-    intensity={2}
-    color="#ffffff"
-  />
-
-  {/* Optional soft rim light from left to give depth */}
-  <spotLight
-    position={[-10, 15, 10]}
-    angle={0.3}
-    intensity={1.5}
-    penumbra={0.8}
-    castShadow
-    shadow-mapSize={1024}
-  />
-
-  {/* ✨ Your exact model values, untouched */}
-  <primitive
-    object={computer.scene}
-    scale={isMobile ? 0.9 : 1.25}
-    position={isMobile ? [-8.5, -5, -2.2] : [-3.5, -4.25, -1.5]}
-    rotation={[-0.01, -0.2, -0.1]}
-  />
-</mesh>
-
+      {/* Your laptop model */}
+      <primitive
+        object={computer.scene}
+        scale={isMobile ? 0.9 : 1.35}
+        position={isMobile ? [-8.5, -5, -2.2] : [-3.5, -4.25, -1.5]}
+        rotation={[-0.01, -0.2, -0.1]}
+      />
+    </mesh>
 
   );
 };
@@ -65,7 +58,6 @@ const ComputersCanvas = () => {
     };
 
     mediaQuery.addEventListener("change", handleMediaQueryChange);
-
     return () => {
       mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
