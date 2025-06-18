@@ -7,20 +7,19 @@ const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   const meshRef = useRef();
 
-  // ✅ Smooth animation: float + sway + breathing
   useFrame((state) => {
     const t = state.clock.getElapsedTime();
 
     if (meshRef.current) {
-      // Floating
+      //Aggressive floating
       meshRef.current.position.y =
-        (isMobile ? -5 : -4.25) + Math.sin(t * 0.8) * 0.08;
+        (isMobile ? -5 : -4.25) + Math.sin(t * 1.2) * 0.25;
 
-      // Subtle sway (Y rotation)
-      meshRef.current.rotation.y = -0.2 + Math.sin(t * 0.5) * 0.05;
+      //Bolder sway
+      meshRef.current.rotation.y = -0.2 + Math.sin(t * 0.8) * 0.12;
 
-      // Breathing effect (scale pulse)
-      const scale = (isMobile ? 0.9 : 1.35) + Math.sin(t * 1.2) * 0.015;
+      //More visible breathing
+      const scale = (isMobile ? 0.9 : 1.35) + Math.sin(t * 1.5) * 0.035;
       meshRef.current.scale.set(scale, scale, scale);
     }
   });
@@ -50,7 +49,6 @@ const Computers = ({ isMobile }) => {
         castShadow
       />
 
-      {/* Animated model */}
       <primitive
         ref={meshRef}
         object={computer.scene}
