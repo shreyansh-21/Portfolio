@@ -23,12 +23,11 @@ import python from "./tech/python.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import crmnext from "./company/crmnext.png";
-import nickelfox from "./company/nickelfox.png";
-import newgen from "./company/newgen.png";
+import wexus from "./company/wexus.png";
+import vit from "./company/vit.png";
+import hybrowlabs from "./company/hybrowlabs.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
-
 import ShopEase from "./projects/ShopEase.png";
 import fitlog from "./projects/fitlog.png";
 import GreenRoots from "./projects/GreenRoots.png";
@@ -61,9 +60,9 @@ export {
   redux,
   tailwind,
   typescript,
-  crmnext,
-  nickelfox,
-  newgen,
+  wexus,
+  vit,
+  hybrowlabs,
   skillrisers,
   proximus,
   ShopEase,

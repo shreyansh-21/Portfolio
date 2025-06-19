@@ -17,9 +17,9 @@ import {
   java,
   mysql,
   git,
-  crmnext,
-  nickelfox,
-  newgen,
+  wexus,
+  vit,
+  hybrowlabs,
   skillrisers,
   proximus,
   ShopEase,
@@ -139,9 +139,21 @@ const technologies = [
 const experiences = [
   {
     title: "Software Devlopment Intern",
+    company_name: "Hybrowlabs",
+    company_website: "https://hybrowlabs.com/",
+    icon: hybrowlabs,
+    iconBg: "#90CAF9",
+    date: "May 2024 - Present",
+    points: [
+      "Developed features for a scalable Todo web app using React and TailwindCSS, fixing frontend bugs and enhancing UI performance.",
+      "Resolved pull request issues, improved REST API integrations, and collaborated with engineers in Agile sprintss.",
+    ],
+  },
+  {
+    title: "Software Devlopment Intern",
     company_name: "Wexus",
     company_website: "https://www.linkedin.com/company/wexus/",
-    icon: crmnext,
+    icon: wexus,
     iconBg: "#90CAF9",
     date: "Sept 2024 - Feb 2025",
     points: [
@@ -155,7 +167,7 @@ const experiences = [
     title: "Programme Representative",
     company_name: "VIT University",
     company_website: "https://vit.ac.in/",
-    icon: nickelfox,
+    icon: vit,
     iconBg: "#90CAF9",
     date: "Aug 2023 - Jul 2024",
     points: [
