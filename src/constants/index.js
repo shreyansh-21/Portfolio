@@ -145,8 +145,9 @@ const experiences = [
     iconBg: "#90CAF9",
     date: "May 2024 - Present",
     points: [
-      "Developed features for a scalable Todo web app using React and TailwindCSS, fixing frontend bugs and enhancing UI performance.",
-      "Resolved pull request issues, improved REST API integrations, and collaborated with engineers in Agile sprintss.",
+      "Built and maintained Hybrowlabs’ core internal task manager used daily by operations teams to handle 5000+ tasks,with role-based assignment and printable views.",
+      "Migrated legacy Mantine UI to TailwindCSS, improving dev speed and maintainability.",
+      "Debugged critical bugs and resolved pull requests in fast Agile sprints.",
     ],
   },
   {
