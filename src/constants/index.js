@@ -143,7 +143,7 @@ const experiences = [
     company_website: "https://hybrowlabs.com/",
     icon: hybrowlabs,
     iconBg: "#90CAF9",
-    date: "May 2024 - Present",
+    date: "May 2025 - June 2025",
     points: [
       "Built and maintained Hybrowlabs’ core internal task manager used daily by operations teams to handle 5000+ tasks,with role-based assignment and printable views.",
       "Migrated legacy Mantine UI to TailwindCSS, improving dev speed and maintainability.",
