@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom"; 
 import { fadeIn, textVariant } from "../utils/motion";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { styles } from "../styles";
@@ -71,21 +70,12 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const AllProjects = () => {
   return (
     <>
-      <motion.div variants={textVariant()} className="flex justify-between items-center">
-        <div>
-          <p className={styles.sectionSubText}>My work</p>
-          <h2 className={styles.sectionHeadText}>Projects.</h2>
-        </div>
-        {/* ✅ View All link */}
-        <Link
-          to="/projects"
-          className="text-[#47a7f5] hover:underline text-[16px] font-medium"
-        >
-          View All →
-        </Link>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Complete Work</p>
+        <h2 className={styles.sectionHeadText}>All Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -93,12 +83,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-white text-[17px] max-w-3xl leading-[30px]"
         >
-          {personalInfo.projectsIntro}
+          Here you’ll find the complete collection of my personal projects a deeper look into the ideas I’ve explored, the skills I’ve honed, and the results I’ve built from scratch. From experimental prototypes to fully polished apps, each project tells a unique story of learning, creativity, and growth.
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {projects.slice(0, 6).map((project, index) => (
+        {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
@@ -106,4 +96,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(AllProjects, "");
