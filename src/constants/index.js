@@ -199,7 +199,7 @@ const projects = [
       },
     ],
     image: ShopEase,
-    hosted_link: "https://shop-ease-pi.vercel.app/",
+    hosted_link: "https://shopease-frontend-xi.vercel.app/",
   },
   {
     name: "Fit Log",
