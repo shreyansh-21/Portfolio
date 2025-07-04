@@ -31,6 +31,7 @@ import proximus from "./company/proximus.png";
 import ShopEase from "./projects/ShopEase.png";
 import fitlog from "./projects/fitlog.png";
 import GreenRoots from "./projects/GreenRoots.png";
+import snippy from "./projects/snippy.png";
 import AgriAi from "./projects/AgriAi.png";
 import LumaPlate from "./projects/LumaPlate.png";
 import HateShield from "./projects/HateShield.png";
@@ -68,6 +69,7 @@ export {
   ShopEase,
   fitlog,
   GreenRoots,
+  snippy,
   AgriAi,
   LumaPlate,
   HateShield,

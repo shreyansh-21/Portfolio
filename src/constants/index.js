@@ -25,6 +25,7 @@ import {
   ShopEase,
   fitlog,
   GreenRoots,
+  snippy,
   AgriAi,
   LumaPlate,
   HateShield,
@@ -254,6 +255,25 @@ const projects = [
     image: AgriAi,
     hosted_link:
       "https://crop-prediction-puce.vercel.app/",
+  },
+  {
+    name: "Snippy",
+    description:
+      "Snippy is your 3D bot buddy that keeps all your precious code snippets safe and accessible.Save your work, edit in a beautiful Monaco editor, and stay organized — effortlessly.",
+    tags: [
+      {
+        name: "Nextjs",
+      },
+      {
+        name: "Prisma",
+      },
+      {
+        name: "Monaco editor",
+      },
+    ],
+    image: snippy,
+    hosted_link:
+      "https://snippy-ai.netlify.app/",
   },
   {
     name: "Luma Plate",
