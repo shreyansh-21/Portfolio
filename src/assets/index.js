@@ -28,7 +28,7 @@ import vit from "./company/vit.png";
 import hybrowlabs from "./company/hybrowlabs.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
-import ShopEase from "./projects/ShopEase.png";
+import ShopEase from "./projects/ShopEase.jpg";
 import fitlog from "./projects/fitlog.png";
 import GreenRoots from "./projects/GreenRoots.png";
 import snippy from "./projects/snippy.png";

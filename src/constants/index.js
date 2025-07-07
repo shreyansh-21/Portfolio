@@ -202,27 +202,9 @@ const projects = [
     hosted_link: "https://shopease-frontend-xi.vercel.app/",
   },
   {
-    name: "Fit Log",
-    description:
-      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress with the help of graphs and charts, and maintain a structured fitness routine.",
-    tags: [
-      {
-        name: "Reactjs",
-      },
-      {
-        name: "Chartjs",
-      },
-      {
-        name: "Nodejs",
-      },
-    ],
-    image: fitlog,
-    hosted_link: "https://fitlog-omega.vercel.app/",
-  },
-  {
     name: "Green Roots",
     description:
-      "An AI/ML Hackathon winning project dedicated to promoting mangrove sustainability and fostering community engagement in mangrove conservation efforts.",
+    "An AI/ML Hackathon winning project dedicated to promoting mangrove sustainability and fostering community engagement in mangrove conservation efforts.",
     tags: [
       {
         name: "Google Earth Engine",
@@ -240,7 +222,7 @@ const projects = [
   {
     name: "AgriVision AI",
     description:
-      "A machine learning-powered precision agriculture tool for crop and soil analysis. Provides insights and recommendations to optimize farming efficiency and boost yields.",
+    "A machine learning-powered precision agriculture tool for crop and soil analysis. Provides insights and recommendations to optimize farming efficiency and boost yields.",
     tags: [
       {
         name: "Random Forest",
@@ -254,7 +236,25 @@ const projects = [
     ],
     image: AgriAi,
     hosted_link:
-      "https://crop-prediction-puce.vercel.app/",
+    "https://crop-prediction-puce.vercel.app/",
+  },
+  {
+    name: "Fit Log",
+    description:
+      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress with the help of graphs and charts, and maintain a structured fitness routine.",
+    tags: [
+      {
+        name: "Reactjs",
+      },
+      {
+        name: "Chartjs",
+      },
+      {
+        name: "Nodejs",
+      },
+    ],
+    image: fitlog,
+    hosted_link: "https://fitlog-omega.vercel.app/",
   },
   {
     name: "Snippy",
