@@ -212,9 +212,6 @@ const projects = [
       {
         name: "Random Forest",
       },
-      {
-        name: "Reactjs",
-      },
     ],
     image: GreenRoots,
     hosted_link: "https://hackthonduo.github.io/GRWebsite/",
