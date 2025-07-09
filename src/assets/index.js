@@ -29,6 +29,7 @@ import hybrowlabs from "./company/hybrowlabs.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
 import ShopEase from "./projects/ShopEase.jpg";
+import MocktailOasis from "./projects/MocktailOasis.png";
 import fitlog from "./projects/fitlog.png";
 import GreenRoots from "./projects/GreenRoots.png";
 import snippy from "./projects/snippy.png";
@@ -67,6 +68,7 @@ export {
   skillrisers,
   proximus,
   ShopEase,
+  MocktailOasis,
   fitlog,
   GreenRoots,
   snippy,

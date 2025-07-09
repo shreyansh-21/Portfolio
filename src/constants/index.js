@@ -24,6 +24,7 @@ import {
   proximus,
   ShopEase,
   fitlog,
+  MocktailOasis,
   GreenRoots,
   snippy,
   AgriAi,
@@ -187,17 +188,7 @@ const projects = [
     name: "ShopEase",
     description:
       "A modern, high-performance multi-page e-commerce UI .It features a seamless shopping experience with dynamic product listings, user authentication, and a responsive design.",
-    tags: [
-      {
-        name: "reactjs",
-      },
-      {
-        name: "redux",
-      },
-      {
-        name: "nodejs",
-      },
-    ],
+    tags: [{name: "reactjs",},{name: "redux",},{name: "nodejs",},],
     image: ShopEase,
     hosted_link: "https://shopease-frontend-xi.vercel.app/",
   },
@@ -205,14 +196,7 @@ const projects = [
     name: "Green Roots",
     description:
     "An AI/ML Hackathon winning project dedicated to promoting mangrove sustainability and fostering community engagement in mangrove conservation efforts.",
-    tags: [
-      {
-        name: "Google Earth Engine",
-      },
-      {
-        name: "Random Forest",
-      },
-    ],
+    tags: [{name: "Google Earth Engine",},{name: "Random Forest",},],
     image: GreenRoots,
     hosted_link: "https://hackthonduo.github.io/GRWebsite/",
   },
@@ -220,73 +204,42 @@ const projects = [
     name: "AgriVision AI",
     description:
     "A machine learning-powered precision agriculture tool for crop and soil analysis. Provides insights and recommendations to optimize farming efficiency and boost yields.",
-    tags: [
-      {
-        name: "Random Forest",
-      },
-      {
-        name: "Seaborn",
-      },
-      {
-        name: "Nextjs",
-      },
-    ],
+    tags: [{name: "Random Forest",},{name: "Seaborn",},{name: "Nextjs",},],
     image: AgriAi,
     hosted_link:
     "https://crop-prediction-puce.vercel.app/",
   },
   {
-    name: "Fit Log",
+    name: "Mocktail Oasis",
     description:
-      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress with the help of graphs and charts, and maintain a structured fitness routine.",
-    tags: [
-      {
-        name: "Reactjs",
-      },
-      {
-        name: "Chartjs",
-      },
-      {
-        name: "Nodejs",
-      },
-    ],
-    image: fitlog,
-    hosted_link: "https://fitlog-omega.vercel.app/",
+      "A modern cocktail website built with React and TailwindCSS, featuring smooth GSAP animations .",
+    tags: [{name: "Reactjs",},{name: "GSAP",},{name: "Parrallax Scrolling",},],
+    image: MocktailOasis,
+    hosted_link: "https://mocktail-oasis.netlify.app/",
   },
+
   {
     name: "Snippy",
     description:
       "Snippy is your 3D bot buddy that keeps all your precious code snippets safe and accessible.Save your work, edit in a beautiful Monaco editor, and stay organized — effortlessly.",
-    tags: [
-      {
-        name: "Nextjs",
-      },
-      {
-        name: "Prisma",
-      },
-      {
-        name: "Monaco editor",
-      },
-    ],
+    tags: [{name: "Nextjs",},{name: "Prisma",},{name: "Monaco editor",},],
     image: snippy,
     hosted_link:
       "https://snippy-ai.netlify.app/",
   },
   {
+    name: "Fit Log",
+    description:
+      "FitLog is a web application designed to help users track their fitness journey. It allows users to log workouts, monitor progress with the help of graphs and charts, and maintain a structured fitness routine.",
+    tags: [{name: "Reactjs",},{name: "Chartjs",},{name: "Nodejs",},],
+    image: fitlog,
+    hosted_link: "https://fitlog-omega.vercel.app/",
+  },
+  {
     name: "Luma Plate",
     description:
       "License Plate Recognition and Image Enhancement is a deep learning-based project that combines optical character recognition (OCR) with image enhancement techniques.",
-    tags: [
-      {
-        name: "ZeroDCE",
-      },
-      {
-        name: "OCR",
-      },
-      {
-        name: "CNN",
-      },
-    ],
+    tags: [{name: "ZeroDCE",},{name: "OCR",},{name: "CNN",},],
     image: LumaPlate,
     hosted_link: "https://github.com/shreyansh-21/LumaPlate",
   },
@@ -294,20 +247,7 @@ const projects = [
     name: "Hate Shield",
     description:
       "HateShield is an AI-powered hate speech detection system using LSTM for text and ResNet for images. It analyzes social media comments, memes, and other content to identify harmful speech with high accuracy.",
-    tags: [
-      {
-        name: "LSTM",
-      },
-      {
-        name: "ResNET",
-      },
-      {
-        name: "Keras",
-      },
-      {
-        name: "computer vision",
-      },
-    ],
+    tags: [{name: "LSTM",},{name: "ResNET",},{name: "Keras",},{name: "computer vision",},],
     image: HateShield,
     hosted_link:
       "https://github.com/shreyansh-21/HateShield",
