@@ -3,6 +3,7 @@ import octopus from "./octopus.png";
 import lion from "./lion.png";
 import fox from "./fox.png";
 import web from "./web.png";
+
 import github from "./github.png";
 import linkedIn from "./linkedIn.png";
 import menu from "./menu.svg";
@@ -23,11 +24,15 @@ import python from "./tech/python.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+
 import wexus from "./company/wexus.png";
 import vit from "./company/vit.png";
 import hybrowlabs from "./company/hybrowlabs.png";
 import skillrisers from "./company/skillrisers.png";
 import proximus from "./company/proximus.png";
+
+
+import jobboard from "./projects/jobboard.png";
 import ShopEase from "./projects/ShopEase.jpg";
 import MocktailOasis from "./projects/MocktailOasis.png";
 import fitlog from "./projects/fitlog.png";
@@ -42,6 +47,7 @@ export {
   octopus,
   lion,
   fox,
+
   web,
   github,
   linkedIn,
@@ -62,11 +68,14 @@ export {
   redux,
   tailwind,
   typescript,
+
   wexus,
   vit,
   hybrowlabs,
   skillrisers,
   proximus,
+  
+  jobboard,
   ShopEase,
   MocktailOasis,
   fitlog,

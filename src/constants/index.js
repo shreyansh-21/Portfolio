@@ -22,6 +22,8 @@ import {
   hybrowlabs,
   skillrisers,
   proximus,
+
+  jobboard,
   ShopEase,
   fitlog,
   MocktailOasis,
@@ -185,6 +187,14 @@ const experiences = [
 
 const projects = [
   {
+    name: "JobBoard AI",
+    description:
+      "Job Board AI is a web platform that uses AI to help users improve their career profiles across 15+ industries. It automates tasks like writing cover letters, enhancing resumes, and preparing for interviews using the Gemini API ",
+    tags: [{name: "Nextjs",},{name: "Gemini",},{name: "NeonDB ",},],
+    image: jobboard,
+    hosted_link: "https://jobboard-ai.vercel.app/",
+  },
+  {
     name: "ShopEase",
     description:
       "A modern, high-performance multi-page e-commerce UI .It features a seamless shopping experience with dynamic product listings, user authentication, and a responsive design.",
@@ -212,7 +222,7 @@ const projects = [
   {
     name: "Mocktail Oasis",
     description:
-      "A modern cocktail website built with React and TailwindCSS, featuring smooth GSAP animations .",
+      "A modern cocktail website built with React and TailwindCSS, featuring smooth GSAP animations SplitText reveals for dynamic text animations & ScrollTrigger for scroll-driven timeline control.",
     tags: [{name: "Reactjs",},{name: "GSAP",},{name: "Parrallax Scrolling",},],
     image: MocktailOasis,
     hosted_link: "https://mocktail-oasis.netlify.app/",
