@@ -282,7 +282,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/12J5ybwE5COF-GsgnB_N2m7LEsrhHqa7X/view?usp=sharing",
+    "https://drive.google.com/file/d/1JNTKPC4W2W-NJvRC0Sz6FI5n5qPh3Yh9/view?usp=sharing",
   socialProfiles: {
     linkedin: {
       title: "linkedin",
