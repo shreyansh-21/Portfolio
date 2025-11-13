@@ -79,13 +79,13 @@ const Works = () => {
           <p className={styles.sectionSubText}>My work</p>
           <h2 className={styles.sectionHeadText}>Projects.</h2>
         </div>
-        {/* ✅ View All link */}
-        <Link
+
+        {/* <Link
           to="/projects"
           className="text-[#47a7f5] hover:underline text-[16px] font-medium"
         >
           View All →
-        </Link>
+        </Link> */}
       </motion.div>
 
       <div className="w-full flex">
@@ -102,6 +102,16 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      <motion.div variants={textVariant()} className="w-full flex justify-end mt-6">
+        <Link
+          to="/projects"
+          className="text-[#47a7f5] hover:underline text-2xl font-medium"
+        >
+          View All →
+        </Link>
+      </motion.div>
+
     </>
   );
 };
